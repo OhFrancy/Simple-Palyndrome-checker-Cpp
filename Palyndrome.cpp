@@ -15,20 +15,14 @@ void userInput()
         constValue = number;
     }
 }    
-
-void ifFalse()
-{
-        std::cout<<"The number is not a palyndrome, as it's a negative number.\n";
-}
-
 int main()
 //Declareing a temporary variable with the value of x, and a value where the x Reversed value it's gonna be
 {
     userInput();
-    //Calling ifFalse function if the number is negative
+    // If the number is negative, displaying that it's not a palyndrome
     if(number < 0)
     {
-        ifFalse();
+         std::cout<<"The number is not a palyndrome, as it's a negative number.\n";
     }
     //If it's not negative, using a simple algorithm to calculate if it's palyndrome or not, if x is equal to x Reversed, calling the isTrue function
     while(number != 0)
