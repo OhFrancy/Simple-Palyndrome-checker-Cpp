@@ -2,9 +2,7 @@
 #include <string>
 #include <functional>
 
-int number;
-int constValue;
-long long reversed = 0;
+long long number, reversed, constValue;
 //Function called in the main function to get the value of the number
 void userInput()
 {
